@@ -1,0 +1,172 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  position: absolute;
+  z-index: 1;
+}
+
+code, kbd, pre, samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace, 微软雅黑;
+}
+
+.ivu-menu-dark {
+  background-color: #33414a;
+}
+
+.main-container {
+  background: white;
+  /*calc(100% - 240px)*/
+  width: 100%;
+  margin: 24px;
+  border-radius: 3px;
+  min-height: 95%;
+  padding: 16px;
+  /*flex: auto;*/
+  position: relative;
+  /*//left: 50%;*/
+  /*//transform: translateX(-50%);*/
+  /*justify-content: center;*/
+}
+
+.content-wrap {
+  width: 100%;
+}
+
+.inner-content-warp {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  background: white;
+  width: calc(100% - 48px);
+  margin: 8px 24px 24px 24px;
+  border-radius: 3px;
+  padding: 16px;
+  flex: 1 1 auto;
+  position: relative;
+}
+
+
+.page-title-warp {
+  flex: 0 0 auto;
+  margin: 24px 24px 0 24px;
+  display: flex;
+}
+
+.page-left-title {
+  flex: 1 1 auto;
+}
+
+.page-right-btn {
+  flex: 0 0 auto;
+}
+
+.empty-block {
+  width: 100%;
+  height: 20px;
+}
+
+.v-table-header-inner {
+  font-weight: bold;
+}
+
+.tar {
+  text-align: right;
+}
+
+.title {
+  text-align: right;
+  font-weight: 500;
+}
+
+.info-row {
+  margin: 16px 0;
+}
+
+.code-wrap {
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: inset 0 0 3px #bdbcbc;
+  background: #e0f1ec;
+  margin-top: 0;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.cur-pointer {
+  cursor: pointer;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+.pretty-scrollbar {
+  display: block;
+  overflow: auto;
+}
+
+.pretty-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.pretty-scrollbar::-webkit-scrollbar-track-piece {
+  background-color: #ccc;
+  -webkit-border-radius: 4px;
+}
+
+.pretty-scrollbar::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: rgba(110, 110, 110, 0.9);
+  margin-right: 2px;
+  -webkit-border-radius: 6px;
+}
+
+.pretty-scrollbar::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: green;
+  -webkit-border-radius: 6px;
+}
+
+.mt {
+  margin-top: 8px;
+}
+
+.columnStyle {
+  cursor: pointer;
+}
+
+.v-select:not(.open) {
+  .form-control {
+    width: 0 !important;
+  }
+}
+
+.main-container-wrap {
+  /*//padding: 0 30px;*/
+  padding: 24px;
+  width: 100%;
+}
+
+.pb-line {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d4d2d2;
+}
+
+.form-label {
+  text-align: right;
+  line-height: 30px;
+  padding-right: 4px;
+  margin-left: 10px;
+  width: 70px;
+}
